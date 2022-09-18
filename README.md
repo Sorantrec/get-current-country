@@ -16,10 +16,10 @@ To use this package you need to install it in you project:
 $ npm install get-current-country-info OR npm i get-current-country-info
 ```
 
-Import the function you need into your project:
+Import the functions you need into your project:
 
 ```
-$ import { getCurrentCountryInfo } from 'get-current-country-info';
+$ import { getCurrentCountryInfo, getCurrentCountry, getCurrentTime, getCurrentCapital } from 'get-current-country-info';
 ```
 
 Invoke this function to get info:
