@@ -1,14 +1,14 @@
 {
   "name": "get-current-country-info",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "The module that helps to get info about your current country, capital and time",
   "main": "index.js",
-  "scripts": {
-    "test": "jest test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sorantrec/get-current-country.git"
+  },
+  "dependencies": {
+    "world-countries-capitals": "^3.4.0"
   },
   "keywords": [
     "current",

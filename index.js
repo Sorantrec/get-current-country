@@ -1,4 +1,4 @@
-export function getCurrentCountry() {
+function getCurrentCountry() {
   const wcc = require("world-countries-capitals");
   const capital = getCurrentCapital();
   const country = wcc.getCountryDetailsByCapital(capital)[0].country;
@@ -6,18 +6,18 @@ export function getCurrentCountry() {
   return country.replace(country.charAt(0), country.charAt(0).toUpperCase());
 }
 
-export function getCurrentTime() {
+function getCurrentTime() {
   return new Date().toLocaleTimeString();
 }
 
-export function getCurrentCapital() {
+function getCurrentCapital() {
   const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
   const capital = timezone.split("/")[1];
 
   return capital;
 }
 
-export default function getCurrentCountryInfo() {
+function getCurrentCountryInfo() {
   return {
     country: getCurrentCountry(),
     time: getCurrentTime(),
