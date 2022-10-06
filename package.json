@@ -1,6 +1,6 @@
 {
   "name": "get-current-country-info",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "The module that helps to get info about your current country, capital and time",
   "main": "index.js",
   "repository": {
